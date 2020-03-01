@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Need chart.js library to draw charts on webpage -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <style type="text/css">
+            .bar-graph-container {
+                width: 700px; 
+                height: auto;
+                display: inline-block;
+                padding: 10px;
+                background-color: #f1f1f1;
+                border-radius: 5px;
+                border-style: groove;
+            }
+            .chart-heading {
+                text-align: center;
+                font-family: sans-serif;
+            }
+            .chart-description {
+                text-align: center;
+                padding-left: 10%;
+                padding-right: 10%;
+                font-family: sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+        <div class="bar-graph-container">
+            <canvas id="chartA" width="400px" height="400px"></canvas>
+        </div>
+        <div class="bar-graph-container">
+            <canvas id="chartB" width="400px" height="400px"></canvas>
+        </div>
+        -->
+        <div class="bar-graph-container">
+            <h1 class="chart-heading">Total Budget Leftover Between 2 Fiscal Years</h1>
+            <p class="chart-description">The bar graph showcases the difference in the remaining amount of budget between each Fiscal year. The goal of this graph is to showcase whether or not Sacramento had any budget remaining.</p>
+            <canvas id="chartC" width="400px" height="400px"></canvas>
+        </div>
+    </body>
+</html>
